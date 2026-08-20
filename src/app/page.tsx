@@ -5,9 +5,9 @@ export default async function Home() {
   const { name, originalPrice, currentPrice } = MOCK_COURSE;
   return (
     <div className="min-h-screen bg-gray-100 py-6 font-sans">
-      <main className="mx-auto flex w-full max-w-md flex-col gap-5 px-4">
-        <section className="flex flex-col justify-center gap-4 rounded-lg bg-white p-6 shadow-md">
-          <div className="text-xl font-bold">{name}</div>
+      <main className="mx-auto flex w-full max-w-md flex-col gap-4 px-4">
+        <section className="flex flex-col justify-center gap-2 rounded-lg bg-white p-6 shadow-md">
+          <h1 className="text-xl font-bold">{name}</h1>
           <div className="text-gray-500 text-md">
             <span>De {formatCurrency(originalPrice)}</span>{" "}
             <span>
