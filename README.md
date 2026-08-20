@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Teste Front-End Cakto - Edgar Ribeiro Neto
 
-## Getting Started
+**Decisões Técnicas:**
 
-First, run the development server:
+**Observação:**
 
+Após uma revisão antes de mergear essa PR [#1](https://github.com/eneto774/cakto-checkout/pull/1) percebi que havia cometido uma falha no desenvolvimento não percebendo que havia um design esperado no final da página, sendo assim irei criar uma nova pagina atendendo a UI proposta no teste e irei transferir essa versão "costumizada" para uma pagina a parte onde irei sinalizar ao fim da refatoração em qual path ela estará disponível.
+
+**Transparência de Uso de IA (Obrigatório):**
+
+Explique como usou IA e o que foi decisão/ajuste manual seu.
+
+**Regras de Negócio (Obrigatório)**
+
+Explique em poucas linhas como você garantiu que:  
+o comprador paga sempre o preço fixo do produto  
+a taxa é descontada do produtor (repasse)
+
+**Como Executar**
+
+1 - Abra o terminal na pasta do projeto
+
+2 - Instale as dependências
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install  
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3 - Rode o projeto
+```bash
+npm run dev
+```
+**Para executar os Testes:**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1 - Instale as dependências
+```bash
+npm install  
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2 - Execute os Testes
+```bash
+npm test
+```
 
-## Learn More
+**Resposta Bônus**
 
-To learn more about Next.js, take a look at the following resources:
+Suas ideias para aumentar a conversão do checkout.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**PRs:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [PR #1 - feat/checkout-page into main](https://github.com/eneto774/cakto-checkout/pull/1)
