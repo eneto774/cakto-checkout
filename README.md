@@ -44,20 +44,6 @@ npm install
 npm run dev
 ```
 
-**Para executar os Testes:**
-
-1 - Instale as dependências
-
-```bash
-npm install
-```
-
-2 - Execute os Testes
-
-```bash
-npm test
-```
-
 **Resposta Bônus**
 
 Para Melhorar a conversão eu daria mais destaque ao desconto exibindo a porcentagem de desconto que está sendo concedida, um design mais conciso com o design da landing page do criador, traria tambem avaliações e feedbacks de pessoas que já compraram, passando mais credibilidade e confiança a respeito do conteudo oferecido pelo influenciador.
