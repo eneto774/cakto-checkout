@@ -64,3 +64,4 @@ Para Melhorar a conversão eu daria mais destaque ao desconto exibindo a porcent
 
 - [PR #1 - feat/checkout-page into main](https://github.com/eneto774/cakto-checkout/pull/1)
 - [PR #2 - refactor/checkout-page into main](https://github.com/eneto774/cakto-checkout/pull/2)
+- [PR #3 - docs/end-review into main](https://github.com/eneto774/cakto-checkout/pull/3)
