@@ -10,6 +10,8 @@
 
 4 - shadcn para facilitar a implementação da UI com consistencia e simplicidade na implementação.
 
+5 - utilizaçao de libs como "cpf-cnpj-validator" para facilitar a validação de documentos brasileiros sem nescessitar a implementação manual dessa funções de validação de CPF ou CNPJ.
+
 **Observação:**
 
 Após uma revisão antes de mergear essa PR [#1](https://github.com/eneto774/cakto-checkout/pull/1) percebi que havia cometido uma falha no desenvolvimento não percebendo que havia um design esperado no final da página, sendo assim irei criar uma nova pagina atendendo a UI proposta no teste e irei transferir essa versão "costumizada" para uma pagina a parte onde irei sinalizar ao fim da refatoração em qual path ela estará disponível.
