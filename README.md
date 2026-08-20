@@ -60,6 +60,12 @@ npm test
 
 Para Melhorar a conversão eu daria mais destaque ao desconto exibindo a porcentagem de desconto que está sendo concedida, um design mais conciso com o design da landing page do criador, traria tambem avaliações e feedbacks de pessoas que já compraram, passando mais credibilidade e confiança a respeito do conteudo oferecido pelo influenciador.
 
+**Urls para Teste:**
+
+Checkout para entrega: path: /
+
+Checkout desenvolvido na primeira branch: /checkout/new
+
 **PRs:**
 
 - [PR #1 - feat/checkout-page into main](https://github.com/eneto774/cakto-checkout/pull/1)
