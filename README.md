@@ -8,7 +8,7 @@ Após uma revisão antes de mergear essa PR [#1](https://github.com/eneto774/cak
 
 **Transparência de Uso de IA (Obrigatório):**
 
-Explique como usou IA e o que foi decisão/ajuste manual seu.
+1 - Utilizei IA para obter os classnames do input, mandei uma imagem do input da tela sugerida e pedi pra me passar quais classnames eu deveria utilizar para transformar um input do shadcn onde eu tinha escolhido um estilo com um round maior para um input mais parecidof com o input do Material UI e ele me passou as classes apliquei, ajustei alguns pontos e ficou bem próximo.
 
 **Regras de Negócio (Obrigatório)**
 
@@ -21,22 +21,27 @@ a taxa é descontada do produtor (repasse)
 1 - Abra o terminal na pasta do projeto
 
 2 - Instale as dependências
+
 ```bash
-npm install  
+npm install
 ```
 
 3 - Rode o projeto
+
 ```bash
 npm run dev
 ```
+
 **Para executar os Testes:**
 
 1 - Instale as dependências
+
 ```bash
-npm install  
+npm install
 ```
 
 2 - Execute os Testes
+
 ```bash
 npm test
 ```
